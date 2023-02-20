@@ -1,0 +1,12 @@
+.image {
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 0px 0px 50px var(--tertiary-color);
+}
+
+.arrow {
+    cursor: pointer;
+}

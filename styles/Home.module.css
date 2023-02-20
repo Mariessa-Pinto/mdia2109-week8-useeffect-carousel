@@ -1,0 +1,36 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+  min-height: 70vh;
+}
+
+.link {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.link:hover {
+  color: var(--tertiary-color);
+  text-decoration: underline;
+}
+
+.topRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.bottomRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.header {
+  margin: 50px 0 50px;
+}

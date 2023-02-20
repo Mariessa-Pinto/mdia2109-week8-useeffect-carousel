@@ -1,0 +1,30 @@
+:root {
+  /** Add some root colors to use on all the other pages */
+  --primary-color: #EADDD6;
+  --secondary-color: #EBD9A7;
+  --tertiary-color: #9E9088;
+  --quartenary-color: #9E9068;
+  --quintenary-color: #B2D5EB;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: var(--primary-color);
+  color: var(--quartenary-color);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
